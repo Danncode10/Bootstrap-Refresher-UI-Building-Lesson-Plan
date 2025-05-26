@@ -54,38 +54,7 @@
 * ✅ Create and link a `style.css` file
 * ✅ Add custom fonts, background colors, shadows
   **🎯 Activity:** Modify a Bootstrap template into your own color theme.
-
----
-
-## 🧱 Lesson 6: Build a Small Project
-
-**📝 Choose a project idea:**
-
-* PDF Summarizer landing page
-* AI Flashcard Generator UI
-* Portfolio site using Bootstrap + AI prompts
-
-**✅ Use:**
-
-* Bootstrap grid + buttons
-* Cards and icons
-* UIverse & BootstrapMade assets
-* ChatGPT for layout help
-
-**🎯 Goal:** Launch a working front page for your AI web app.
-
----
-
-## 🚀 Bonus: Hosting & Monetization Prep
-
-* ✅ Host your frontend on:
-
-  * GitHub Pages
-  * Netlify
-  * Vercel
-* ✅ Add CTA buttons like “Upload PDF” or “Generate Summary”
-* ✅ Plan areas for ads or premium upgrade prompts
-
+  
 ---
 
 ## 🛠 Tools You’ll Use
