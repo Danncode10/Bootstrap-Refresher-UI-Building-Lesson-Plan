@@ -1,0 +1,46 @@
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+node_modules/
+bower_components/
+
+# Build output
+dist/
+build/
+.env
+.env.local
+.env.*.local
+
+# GitHub Pages / Netlify / Vercel cache (optional)
+.cache/
+.netlify/
+.vercel/
+
+# Optional: if you're compiling Sass/SCSS
+*.css.map
+
+# Optional: if using package managers like pnpm
+.pnpm-store/
+
+# Mac-specific system files
+._*
+.Spotlight-V100
+.Trashes
