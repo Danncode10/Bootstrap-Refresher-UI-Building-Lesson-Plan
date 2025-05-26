@@ -54,7 +54,26 @@
 * ✅ Create and link a `style.css` file
 * ✅ Add custom fonts, background colors, shadows
   **🎯 Activity:** Modify a Bootstrap template into your own color theme.
-  
+
+---
+
+## 🧑‍💻 Built by Devs
+
+This section is for developers who want to practice and showcase their Bootstrap + UI skills by contributing completed lessons!
+
+### 📂 How to Contribute
+
+1. Fork this repository 🍴
+2. Create a folder inside `/built-by-devs` named after your GitHub username or name (e.g., `built-by-devs/janedoe`)
+3. Inside your folder, include your lesson files (HTML, CSS, etc.)
+4. Submit a Pull Request ✅
+
+We'll review and merge great submissions so other learners can be inspired!
+
+---
+
+> 🔔 Want to showcase your creativity with Bootstrap + AI? Submit your version of any lesson above!
+
 ---
 
 ## 🛠 Tools You’ll Use
