@@ -1,0 +1,25 @@
+body {
+  background-color: #f5f7fa;
+}
+
+.navbar, {
+  background-color: #4B0082 !important; /* Override Bootstrap dark */
+}
+
+h1, h2, h3,{
+  color: #4B0082;
+  text-shadow: 1px 1px 2px #ccc;
+}
+
+.btn-custom{
+  background-color: #4B0082;
+  color: white;
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.card {
+  border-radius: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
