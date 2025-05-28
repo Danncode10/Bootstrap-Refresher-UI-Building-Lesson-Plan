@@ -1,0 +1,232 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Explorer - Discover Your Next Adventure</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <i class="fas fa-plane-departure me-2"></i> Wanderlust Explorer
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Destinations</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#gallery">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="d-flex align-items-center text-center text-white">
+        <div class="overlay"></div> <div class="container position-relative">
+            <h1 class="display-1 mb-3 animate__animated animate__fadeInDown">Explore The World</h1>
+            <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s">Your journey begins here. Discover breathtaking landscapes and unforgettable experiences.</p>
+            <a href="#featured" class="btn btn-primary btn-lg animate__animated animate__zoomIn animate__delay-2s">Start Exploring <i class="fas fa-chevron-right ms-2"></i></a>
+        </div>
+    </section>
+
+    <section id="featured" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">Featured Destinations</h2>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                <div class="col animate__animated animate__fadeInUp scroll-reveal">
+                    <div class="card destination-card shadow-sm">
+                        <img src="https://static.vecteezy.com/system/resources/previews/011/826/370/large_2x/maldives-islands-ocean-tropical-beach-exotic-sea-lagoon-palm-trees-over-white-sand-idyllic-nature-landscape-amazing-beach-scenic-shore-bright-tropical-summer-sun-and-blue-sky-with-light-clouds-photo.jpg" class="card-img-top" alt="Tropical Beach, Thailand">
+                        <div class="card-body">
+                            <h5 class="card-title">Tropical Paradise, Thailand</h5>
+                            <p class="card-text">Pristine beaches, vibrant culture, and delicious cuisine await. A perfect getaway for relaxation.</p>
+                            <a href="https://caribbeanholidaysinternational.com/blog-details/thailand:-a-tropical-paradise-for-every-traveler" class="btn btn-outline-primary">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col animate__animated animate__fadeInUp scroll-reveal">
+                    <div class="card destination-card shadow-sm">
+                        <img src="https://media.worldnomads.com/travel-safety/switzerland/lauterbrunnen-valley-switzerland-gettyimages-1024638132.jpg" class="card-img-top" alt="Swiss Alps, Switzerland">
+                        <div class="card-body">
+                            <h5 class="card-title">Majestic Alps, Switzerland</h5>
+                            <p class="card-text">Breathtaking mountain views, charming villages, and world-class skiing. An adventurer's dream.</p>
+                            <a href="https://en.wikipedia.org/wiki/Swiss_Alps" class="btn btn-outline-primary">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col animate__animated animate__fadeInUp scroll-reveal">
+                    <div class="card destination-card shadow-sm">
+                        <img src="https://historyfangirl.com/wp-content/uploads/2020/06/England-London-Big-Ben.png" class="card-img-top" alt="Historic London, UK">
+                        <div class="card-body">
+                            <h5 class="card-title">Historic London, UK</h5>
+                            <p class="card-text">Explore iconic landmarks, rich history, and vibrant culture in one of the world's greatest cities.</p>
+                            <a href="https://en.wikipedia.org/wiki/London" class="btn btn-outline-primary">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col animate__animated animate__fadeInUp scroll-reveal">
+                    <div class="card destination-card shadow-sm">
+                        <img src="https://whstravellers.wordpress.com/wp-content/uploads/2016/02/25159113286_8c89a6c12f_b.jpg" class="card-img-top" alt="Kyoto, Japan">
+                        <div class="card-body">
+                            <h5 class="card-title">Ancient Kyoto, Japan</h5>
+                            <p class="card-text">Discover ancient temples, serene gardens, and traditional geisha districts in Japan's cultural heart.</p>
+                            <a href="https://en.wikipedia.org/wiki/Kyoto" class="btn btn-outline-primary">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col animate__animated animate__fadeInUp scroll-reveal">
+                    <div class="card destination-card shadow-sm">
+                        <img src="https://ttw.wlimg.com/package-images/photo-big/dir_61/1819392/414158.jpg" class="card-img-top" alt="Pyramids of Giza, Egypt">
+                        <div class="card-body">
+                            <h5 class="card-title">Mystical Egypt</h5>
+                            <p class="card-text">Journey back in time to explore ancient pyramids, majestic temples, and the Nile River.</p>
+                            <a href="https://en.wikipedia.org/wiki/Ancient_Egypt" class="btn btn-outline-primary">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col animate__animated animate__fadeInUp scroll-reveal">
+                    <div class="card destination-card shadow-sm">
+                        <img src="https://www.travelandleisure.com/thmb/SPUPzO88ZXq6P4Sm4mC5Xuinoik=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/eiffel-tower-paris-france-EIFFEL0217-6ccc3553e98946f18c893018d5b42bde.jpg" class="card-img-top" alt="Eiffel Tower, Paris">
+                        <div class="card-body">
+                            <h5 class="card-title">Romantic Paris, France</h5>
+                            <p class="card-text">Experience the city of love with iconic landmarks, art, fashion, and delectable cuisine.</p>
+                            <a href="https://freewalkingtour.com/paris-the-city-of-love/" class="btn btn-outline-primary">View Details <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">Travel Photo Gallery</h2>
+            
+            <!-- New Carousel Implementation -->
+            <div id="carouselExampleCaptions" class="carousel slide shadow-lg">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://img.freepik.com/free-photo/sunset-time-tropical-beach-sea-with-coconut-palm-tree_74190-1075.jpg?semt=ais_items_boosted&w=740" class="d-block w-100 carousel-img" alt="Beach sunset">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Golden Sunsets</h5>
+                            <p>Unforgettable moments as day turns to night.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.istockphoto.com/id/517188688/photo/mountain-landscape.jpg?s=612x612&w=0&k=20&c=A63koPKaCyIwQWOTFBRWXj_PwCrR4cEoOw2S9Q7yVl8=" class="d-block w-100 carousel-img" alt="Mountain landscape">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Majestic Peaks</h5>
+                            <p>Conquer new heights and embrace the views.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://s46675.pcdn.co/wp-content/uploads/2015/12/nigth-cityscape-01.jpg" class="d-block w-100 carousel-img" alt="Cityscape at night">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Vibrant Cityscapes</h5>
+                            <p>Discover the energy of urban adventures.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://media.istockphoto.com/id/152538687/photo/morning-light.jpg?s=612x612&w=0&k=20&c=W-sIciYQnwZXpTxuwp7Lj-2VIwLCRepiys6HYfbvzQ0=" class="d-block w-100 carousel-img" alt="Forest path">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Serene Wilderness</h5>
+                            <p>Lose yourself in nature's tranquility.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title">Plan Your Adventure</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="destination" class="form-label">Preferred Destination/Query</label>
+                            <textarea class="form-control" id="destination" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100">Send Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <div class="mb-3">
+                <a href="#" class="text-white mx-2" aria-label="Facebook"><i class="fab fa-facebook-f fa-lg"></i></a>
+                <a href="#" class="text-white mx-2" aria-label="Twitter"><i class="fab fa-twitter fa-lg"></i></a>
+                <a href="#" class="text-white mx-2" aria-label="Instagram"><i class="fab fa-instagram fa-lg"></i></a>
+                <a href="#" class="text-white mx-2" aria-label="LinkedIn"><i class="fab fa-linkedin-in fa-lg"></i></a>
+            </div>
+            <p>&copy; 2025 Wanderlust Explorer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        
+        document.addEventListener('DOMContentLoaded', function() {
+            var myCarousel = document.getElementById('carouselExampleCaptions');
+            if (myCarousel) {
+                console.log('Carousel element found');
+                var bsCarousel = new bootstrap.Carousel(myCarousel);
+                console.log('Carousel initialized');
+            } else {
+                console.error('Carousel element not found');
+            }
+        });
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
